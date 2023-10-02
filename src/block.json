@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "wpdc/file-no-preview",
-	"title": "File - No Preview",
+	"name": "wpdc/file-without-preview",
+	"title": "File Without Preview",
 	"category": "media",
 	"description": "Add a link to a downloadable file.",
 	"keywords": [ "document", "pdf", "download" ],
@@ -45,13 +45,6 @@
 			"type": "string",
 			"source": "html",
 			"selector": "a[download]"
-		},
-		"displayPreview": {
-			"type": "boolean"
-		},
-		"previewHeight": {
-			"type": "number",
-			"default": 600
 		}
 	},
 	"supports": {
