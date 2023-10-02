@@ -1,1 +1,0 @@
-<?php return array('dependencies' => array('wp-blob', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-compose', 'wp-core-data', 'wp-data', 'wp-element', 'wp-notices', 'wp-primitives'), 'version' => '96a7701fe9b99de9984b');
